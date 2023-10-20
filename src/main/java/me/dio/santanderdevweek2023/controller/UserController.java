@@ -1,4 +1,4 @@
-package me.dio.santanderdevweek2023.controller;
+package me.dio.santanderdevweek2023;
 
 import me.dio.santanderdevweek2023.service.UserService;
 import org.springframework.http.ResponseEntity;
