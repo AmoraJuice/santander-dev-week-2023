@@ -1,4 +1,4 @@
-package me.dio.controller.exception;
+package me.dio.santanderdevweek2023.controller.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

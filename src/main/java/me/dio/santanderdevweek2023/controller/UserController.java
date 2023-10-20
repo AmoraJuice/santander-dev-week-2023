@@ -1,6 +1,5 @@
-package me.dio.controller;
+package me.dio.santanderdevweek2023.controller;
 
-import me.dio.santanderdevweek2023.controller.User;
 import me.dio.santanderdevweek2023.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -26,7 +25,7 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<User> create(@RequestBody User userToCreate) {
+    public ResponseEntity<me.dio.santanderdevweek2023.domain.model.User> create(@RequestBody User userToCreate) {
         var userCreated = userService.create(userToCreate);
         URI location = fromCurrentRequest()
                 .path("/{id}")
